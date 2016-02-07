@@ -138,7 +138,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
   <body>
     <h2>用户登录</h2>
     
-    <hr>
+    
    <form action="user.do" method="post">
                         用户名：<input type="text" name="username" id="username"/><br>
                         密码：<input type="password" name="password"/><br>
