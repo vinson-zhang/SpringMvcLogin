@@ -1,0 +1,151 @@
+.signin-bg{
+	position: absolute;height:100%;width:100%;
+	background:url(../image_need/login2.jpg) 0px 0px no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+}
+.signin-container{
+	position: fixed;left:62%;height:100%;
+	width:38%;
+	box-shadow:1px 3px 5px #999;
+	-webkit-box-shadow:1px 3px 5px #999;
+	-moz-box-shadow:1px 3px 5px #999;
+	background: rgb(255,255,255);
+	background: rgba(255,255,255,0.1);
+}
+.signup_box{
+	margin:150px 0px 30px 45px;
+}
+.signin-txt{
+	padding: 13px 15px;
+	font-size: 14px;
+	background-color: #ffffff;
+	border: 1px solid #cccccc;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	-webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-o-transition: border linear 0.2s, box-shadow linear 0.2s;
+	transition: border linear 0.2s, box-shadow linear 0.2s;
+	line-height: 20px;
+	color: #333333;
+	vertical-align: middle;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	height: 20px;
+	width:260px;
+	outline:none;
+}
+.signin-txt.error{
+	border: 1px solid #e3a198;
+	-webkit-box-shadow: 0px 0px 4px #e3a198;
+	-moz-box-shadow: 0px 0px 4px #e3a198;
+	box-shadow: 0px 0px 4px #e3a198;
+	-webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-o-transition: border linear 0.2s, box-shadow linear 0.2s;
+	transition: border linear 0.2s, box-shadow linear 0.2s;
+	color: #333333;
+}
+.signin-txt.success{
+	border: 1px solid #468847;
+	-webkit-box-shadow: 0px 0px 4px #468847;
+	-moz-box-shadow: 0px 0px 4px #468847;
+	box-shadow: 0px 0px 4px #468847;
+	-webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+	-o-transition: border linear 0.2s, box-shadow linear 0.2s;
+	transition: border linear 0.2s, box-shadow linear 0.2s;
+	color: #333333;
+}
+.signin-platform{
+	float:left;min-height:160px;
+	border-left:1px solid #e5e5e5;
+	margin-top:74px;
+	position:relative;
+}
+.signin-forget{
+	float:right;margin-right:50px;margin-top:10px;
+}
+.signin-btn{
+	padding:5px 20px !important;
+	font-weight:normal;
+	font-size:16px;
+}
+
+.signin-error{
+	position: absolute;
+	left:0px;
+}
+.signin-error-tip{
+	position: relative;
+	padding: 5px 8px;
+	margin-bottom: 13px;
+	border: 1px solid #e3a198;
+	border-radius: 3px;
+	box-shadow: 1px 1px 5px #e3a198;
+	display:inline-block;
+	background-color: #fed1d1;
+	color: #B8211D;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.signin-error-tip-arrow{
+	border:8px solid transparent;
+	position: absolute;
+}
+.signin-error-tip-arrow.right{
+	border-left:8px solid #ed5459;
+	right:-16px;
+	top:6px;
+}
+.signin-error-tip-arrow.right1{
+	border-left:8px solid #fed1d1;
+	right:-15px;
+	top:6px;
+}
+
+.signin-error-tip-arrow.left{
+	border-right:8px solid #ed5459;
+	left:-16px;
+	top:6px;
+}
+.signin-error-tip-arrow.left1{
+	border-right:8px solid #fed1d1;
+	left:-15px;
+	top:6px;
+}
+
+.signin-success{
+	position: absolute;
+	left:0px;
+}
+.signin-success-tip{
+	position: relative;
+	padding: 5px 8px;
+	margin-bottom: 13px;
+	border: 1px solid green;
+	border-radius: 3px;
+	box-shadow: 1px 1px 5px #D6E9C6;
+	display:inline-block;
+	background-color: #DFF0D8;
+	color: #468847;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+.signin-success-tip-arrow{
+	border:8px solid transparent;
+	position: absolute;
+}
+.signin-success-tip-arrow.right{
+	border-left:8px solid green;
+	right:-16px;
+	top:6px;
+}
+.signin-success-tip-arrow.right1{
+	border-left:8px solid #DFF0D8;
+	right:-15px;
+	top:6px;
+	}
